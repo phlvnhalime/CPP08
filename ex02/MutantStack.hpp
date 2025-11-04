@@ -6,7 +6,7 @@
 /*   By: hpehliva <hpehliva@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/04 21:13:42 by hpehliva          #+#    #+#             */
-/*   Updated: 2025/11/04 21:39:37 by hpehliva         ###   ########.fr       */
+/*   Updated: 2025/11/04 22:01:10 by hpehliva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,6 @@
 #define MUTANTSTACK_HPP
 
 #include <stack> // pop, push, top
-#include <iostream>
-#include <deque>
 
 template <typename T>
 class MutantStack : public std::stack<T> // interited from std::stack
